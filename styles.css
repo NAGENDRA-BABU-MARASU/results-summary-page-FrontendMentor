@@ -168,6 +168,10 @@ body {
 	color: hsl(228, 45%, 44%);
 }
 
+.footer {
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 600px) {
 	body {
 		background-color: pink;
@@ -190,7 +194,7 @@ body {
 	}
 
 	.result-summary-main .score {
-		width: 200px;
+		width: 170px;
 	}
 
 	.result-summary-info {
