@@ -26,6 +26,8 @@ main {
 	max-width: 600px;
 	height: 400px;
 	margin: 0 auto;
+  background-color: white;
+  border-radius: 25px;
 }
 
 .result-summary-main {
@@ -81,6 +83,8 @@ main {
 	background: hsl(0, 0%, 100%);
 	width: 300px;
 	border-radius: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 	display: flex;
 	flex-direction: column;
 	align-content: space-around;
