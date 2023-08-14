@@ -18,7 +18,7 @@ const getElement = (jsonData) => {
   scoreValue.textContent = jsonData.score;
 
   const totalScore = document.createElement("span");
-  totalScore.textContent = "/ 100";
+  totalScore.textContent = " / 100";
 
   const scoreDiv = document.createElement("div");
   scoreDiv.appendChild(scoreValue);
